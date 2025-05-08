@@ -115,11 +115,13 @@ div.D2D{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     
 }
 div.D2D h2{
     padding: 30px;
     color: red;
+
 }
 section.S3{
     padding-top: 70px;
