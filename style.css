@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(8, 20, 57);
+    height: 50px;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    
+}
+header.scrolled{
+    background-color: #555;
+
+    
+
+}
+header a img{
+    width: 60px;
+    text-decoration: none;
+
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header nav ul li{
+    list-style-type: none;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    
+}
+header nav ul li a:hover{
+    color:red;
+    
+
+}
+header nav ul{
+    display: flex;
+    gap: 20px;
+}
+section.S1{height: 100vhw;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2cm;
+}
+ section.S1 div.i img{
+  width: 400px;
+    border-radius:100px;
+    box-shadow: 10px 10px 10px #712A37;
+ }
+ section.S1 div.h{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+section.S1 div.h h1{
+    font-size: 40px;
+    color: red;
+    
+}
+section.S1 div.h h2{
+    font-size:50px;
+}
+section.S1 div.h p{
+    color: white;
+    background-color:rgba(8, 20, 57);
+
+}
+section.S2{
+    height: 100vhw;
+    
+    
+}
+div.D2{
+    padding:50px 100px 20px 100px;
+}
+h1.TT{
+    font-size: 50px;
+    color:rgba(8, 20, 57);
+    text-align: center;
+    padding-bottom: 1cm
+    
+    
+}
+section.S2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+div.D2A{
+    display: flex;
+    justify-content: space-around;
+
+}
+div.D2 section.S2 div.D2A div.D2G img{
+    width: 450px;
+    transition: transform 0.3s ease;
+
+}
+div.D2 section.S2 div.D2A div.D2G img:hover{
+    transform: scale(1.2);
+
+}
+div.D2D{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+div.D2D h2{
+    padding: 30px;
+    color: red;
+}
+section.S3{
+    padding-top: 70px;
+
+}
+div.IH{
+    display: flex;
+    justify-content: space-around;
+    
+}
+img.IR{
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+img.IR:hover{
+    transform: scale(1.3);
+    box-shadow: 10px 10px 50px black;
+
+}
+h2.HIR{
+    padding-top: 30px;
+    color:blue;
+    text-align: center;
+}
+section.S4{
+    padding: 100px 75px 20px 75px;
+    display:flex;
+    justify-content: space-around;
+    
+}
+section.S5{
+    padding: 100px 75px 20px 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section.S5 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 1000px;
+    box-shadow: 20px 20px 50px black;
+    
+
+}
+
+.contact {
+    padding: 60px 20px;
+    background-color:rgba(8, 20, 57);
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  button[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: rgb(231, 3, 3);
+  }
+  .footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 20px 20px;
+    font-size: 0.9rem;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .footer-container div {
+    flex: 1 1 250px;
+    margin: 10px;
+  }
+  
+  .footer h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #fafafa;
+  }
+  
+  .footer p,
+  .footer a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+    color: #fff;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    border-top: 1px solid #444;
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 0.8rem;
+  }
+  
